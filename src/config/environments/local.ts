@@ -15,7 +15,7 @@ export const localConfig = {
 			database: 'event-manager',
 			migrations: ['src/api/migrations/**/*.{ts,js}'],
 			entities: ['src/api/models/**/*.{ts,js}'],
-			synchronize: true,
+			synchronize: false,
 			logging: false,
 		},
 		redis: {
