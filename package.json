@@ -7,8 +7,8 @@
     "node": ">= 18.16.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "local": "nodemon"
+    "local": "NODE_ENV=local nodemon",
+    "test": "NODE_ENV=test nodemon"
   },
   "author": "",
   "license": "ISC",
